@@ -57,12 +57,10 @@
 **① Start Line**  
 HTTP Request의 첫 라인으로 3부분으로 구성되어 있다. 
 + HTP Method : 해당 Request가 의도한 Action을 정의하는 부분
-
-- <b>GET</b> : 자료를 요청할 때 사용
-- <b>POST</b> : 자료의 생성을 요청할 때 사용
-- <b>PUT</b> : 자료의 수정을 요청할 때 사용
-- <b>DELETE</b> : 자료의 삭제를 요청할 때 사용
-
+  - <b>GET</b> : 자료를 요청할 때 사용
+  - <b>POST</b> : 자료의 생성을 요청할 때 사용
+  - <b>PUT</b> : 자료의 수정을 요청할 때 사용
+  - <b>DELETE</b> : 자료의 삭제를 요청할 때 사용
 + Request Target : 해당 Request가 전송되는 목표 URL
 + HTTP Version 
 
