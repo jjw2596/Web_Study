@@ -56,19 +56,19 @@
 
 **① Start Line**  
 HTTP Request의 첫 라인으로 3부분으로 구성되어 있다. 
-<li> HTP Method : 해당 Request가 의도한 Action을 정의하는 부분
-<ul style="list-style-type:circle">
-<li> <b>GET</b> : 자료를 요청할 때 사용
-<li> <b>POST</b> : 자료의 생성을 요청할 때 사용
-<li> <b>PUT</b> : 자료의 수정을 요청할 때 사용
-<li> <b>DELETE</b> : 자료의 삭제를 요청할 때 사용
-</ul>
-<li> Request Target : 해당 Request가 전송되는 목표 URL
-<li> HTTP Version 
++ HTP Method : 해당 Request가 의도한 Action을 정의하는 부분
+
+- <b>GET</b> : 자료를 요청할 때 사용
+- <b>POST</b> : 자료의 생성을 요청할 때 사용
+- <b>PUT</b> : 자료의 수정을 요청할 때 사용
+- <b>DELETE</b> : 자료의 삭제를 요청할 때 사용
+
++ Request Target : 해당 Request가 전송되는 목표 URL
++ HTTP Version 
 
 **② Header**
-<li>해당 Request에 대한 추가 정보를 담고있는 부분
-<li>Key:Value 값으로 되어있다.(: 사용)<br>
++ 해당 Request에 대한 추가 정보를 담고있는 부분
++ Key:Value 값으로 되어있다.(: 사용)<br>
 자주 사용 되는 Header 정보
 <ul style="list-style-type:circle">
 <li> Host : 요청이 전송되는 Target의 host url
