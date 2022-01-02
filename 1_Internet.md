@@ -68,14 +68,12 @@ HTTP Request의 첫 라인으로 3부분으로 구성되어 있다.
 + 해당 Request에 대한 추가 정보를 담고있는 부분
 + Key:Value 값으로 되어있다.(: 사용)<br>
 자주 사용 되는 Header 정보
-<ul style="list-style-type:circle">
-<li> Host : 요청이 전송되는 Target의 host url
-<li> User-Agent : 요청을 보내는 클라이언트의 정보
-<li> Accept : 해당 요청이 받을 수 있는 Response 타입
-<li> Connection : 해당 요청이 끝난 후 클라이언트와 서버가 계속해서 네트워크 연결을 유지할지 안할지 지시
-<li> Content-Type : 해당 요청이 보내는 메시지 Body의 타입
-<li> Content-Length : 메시지 Body의 길이
-</ul>
+  - Host : 요청이 전송되는 Target의 host url
+  - User-Agent : 요청을 보내는 클라이언트의 정보
+  - Accept : 해당 요청이 받을 수 있는 Response 타입
+  - Connection : 해당 요청이 끝난 후 클라이언트와 서버가 계속해서 네트워크 연결을 유지할지 안할지 지시
+  - Content-Type : 해당 요청이 보내는 메시지 Body의 타입
+  - Content-Length : 메시지 Body의 길이
 
 **③ Body**  
 해당 Request의 실제 메시지/내용. Body가 없는 Request도 많다. GET Request들은 대부분 Body가 없는 경우가 많다.  
@@ -91,21 +89,19 @@ Upgrade-Insecure-Requests: 1 // Body
 Response도 Request처럼 3부분으로 구성되어 있다.  
 **① Status Line**  
 Response의 상태를 간략하게 나타내주는 부분.
-<li> HTTP 버전
-<li> Status Code : 응답 상태를 나타내는 코드
-<ul style="list-style-type:circle">
-<li> <b>1XX(조건부 응답)</b> : 요청을 받았으며 작업을 계속한다.
-<li> <b>2XX(성공)</b> : 클라이언트가 요청한 동작을 수신하여 이해했고 승낙했으며 성공적으로 처리했음
-<li> <b>3XX(리다이렉션 완료)</b> : 클라이언트는 요청을 마치기 위해 추가 동작을 취해야 한다.
-<li> <b>4XX(요청 오류)</b> : 클라이언트에 오류가 있음을 나타낸다.
-<li> <b>5XX(서버 오류)</b> : 서버가 유효한 요청을 명백하게 수행하지 못했음
-</ul>
-<li> Status Text : 응답 상태를 간략하게 설명해주는 부분
++ HTTP 버전
++ Status Code : 응답 상태를 나타내는 코드
+  - <b>1XX(조건부 응답)</b> : 요청을 받았으며 작업을 계속한다.
+  - <b>2XX(성공)</b> : 클라이언트가 요청한 동작을 수신하여 이해했고 승낙했으며 성공적으로 처리했음
+  - <b>3XX(리다이렉션 완료)</b> : 클라이언트는 요청을 마치기 위해 추가 동작을 취해야 한다.
+  - <b>4XX(요청 오류)</b> : 클라이언트에 오류가 있음을 나타낸다.
+  - <b>5XX(서버 오류)</b> : 서버가 유효한 요청을 명백하게 수행하지 못했음
++ Status Text : 응답 상태를 간략하게 설명해주는 부분
 
 **② Headers**  
-<li> Response의 Headers와 동일
-<li> 다만 Response에서만 사용되는 Header 값들이 존재
++ Response의 Headers와 동일
++ 다만 Response에서만 사용되는 Header 값들이 존재
 
 **③ Body**  
-<li>Response의 Body와 일반적으로 동일하다.
-<li>Request와 마찬가지로 모든 Response가 Body가 있지는 않다. 데이터를 전송할 필요가 없을경우 Body가 비어있게 된다.  
++ Response의 Body와 일반적으로 동일하다.
++ Request와 마찬가지로 모든 Response가 Body가 있지는 않다. 데이터를 전송할 필요가 없을경우 Body가 비어있게 된다.  
