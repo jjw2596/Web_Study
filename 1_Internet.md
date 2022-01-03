@@ -50,6 +50,7 @@
 + **요청/응답(Request/Response) 구조**
 + <b>요청 : Client -> Server / 응답 : Server -> Client</b>
 + HTTP는 <b>Stateless</b>이다. State(상태)를 저장하지 않는다. 즉, 각각의 요청/응답은 독립적이다.  
++ HTTPS = HTTP + Security
 <br><br>
 
 ## HTTP Request 구조
