@@ -55,7 +55,7 @@
         위의 코드를 DOM Tree로 전환 하면 아래와 같이 구성됨  
         ![Dom_Tree](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image015.png)  
     
-    2. **외부 CSS 파일과 함께 포함된 스타일 요소를 파싱**
+    2. **외부 CSS 파일과 함께 포함된 스타일 요소를 파싱**  
         ![css_parsing](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbKJnUb%2Fbtrb8f6gRKU%2FDn4wpPKW6FVseOKdgGdZQK%2Fimg.png)  
     
     3. **DOM 트리와 위의 2번 결과물을 합쳐 렌더 트리를 구축**
