@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVER</title>
+
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 150px;
+            /* border: 1px solid black; */
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        nav{
+            width: 100%;
+            height: 50px;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        .aside_lf{
+            height: 100vh;
+            width: 20%;
+            border: 1px solid black;
+            float: left;
+        }
+
+        section {
+            width: 60%;
+            height: 100vh;
+            border: 1px solid black;
+            float: left;
+            position: relative;
+        }
+
+        .aside_rt {
+            height: 100vh;
+            width: 20%;
+            border: 1px solid black;
+        }
+
+        .logo_search {
+            height: 55px;
+            width: 1000px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -25px;
+            margin-left: -570px;
+            
+        }
+
+        .logo {
+            float: left;
+            margin-right: 25px;
+        }
+
+        .search_bar {
+            height: 55px;
+            width: 580px;
+            border: 2px solid #2DB400;
+            background: #fff;
+            float: left;
+        }
+
+        .search_input {
+            font-size: 25px;
+            width: 325px;
+            padding: 10px;
+            border: 0px;
+            outline: none;
+            float: left;
+        }
+
+        .search_button {
+            width: 55px;
+            height: 100%;
+            border: 0px;
+            background: #2DB400;
+            outline: none;
+            float: right;
+            color: #fff
+        }
+
+        .nav_container {
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            left: 50%;
+            margin-left: -30%;
+        }
+
+        .nav_item {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 9px;
+            cursor: pointer;
+        }
+
+        .nav_item a {
+            text-align: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        .article-left {
+            /* position: absolute; */
+            float: left;
+        }
+
+        .headline-news {
+            width: 62%;
+            height: 50px;
+            background-color: rgb(248, 245, 245);
+            border: 1px solid lightgray;
+            position: absolute;
+            top: 40px;
+        }
+
+        .headline-menu-container {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+        }
+
+        .headline-menu {
+            padding-right: 9px;
+            position: relative;
+            right: -500px;
+            bottom: 9px;
+        }
+
+        .headline-menu a {
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .news-table {
+            width: 62%;
+            height: 300px;
+            position: absolute;
+            top: 150px;
+            border: 1px solid lightgray;
+            border-collapse: collapse;
+        }
+
+        .news-table td {
+            border: 1px solid lightgray;
+        }
+
+        .login-box {
+            background-color: rgb(248, 245, 245);
+            border: 1px solid lightgray;
+            width: 33%;
+            height: 130px;
+            position: absolute;
+            right: 0%;
+            top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo_search">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVJr36i1jw-0CC5Ad-Z6VUkzr8qEZYH-AnA&usqp=CAU" width="220px" height="55px">
+            </div>
+            <div class="search_bar">
+                <input type="text" class="search_input">
+                <button class="search_button"><img src="search.png" width="35px" height="35px"></button>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul class="nav_container">
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">메일</a></li>
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">카페</a></li>
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">블로그</a></li>
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">지식iN</a></li>
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">쇼핑</a></li>
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">쇼핑LIVE</a></li>
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">Pay</a></li>
+            <li class="nav_item"><a href="" style="color:#2DB400; font-weight: bold;">TV</a></li>
+            <li class="nav_item"><a href="">사전</a></li>
+            <li class="nav_item"><a href="">뉴스</a></li>
+            <li class="nav_item"><a href="">증권</a></li>
+            <li class="nav_item"><a href="">부동산</a></li>
+            <li class="nav_item"><a href="">지도</a></li>
+            <li class="nav_item"><a href="">VIBE</a></li>
+            <li class="nav_item"><a href="">책</a></li>
+            <li class="nav_item"><a href="">웹툰</a></li>
+        </ul>
+    </nav>
+
+    <aside class="aside_lf">
+
+    </aside>
+
+    <section>
+        <article class="article-left">
+            <div class="headline-news">
+                <div>
+                    연합뉴스
+                </div>
+                <div>
+                    <ul class="headline-menu-container">
+                        <li class="headline-menu"><a href="" style="color: rgb(94, 94, 248);">뉴스홈</a></li>
+                        <li class="headline-menu"><a href="">연예</a></li>
+                        <li class="headline-menu"><a href="">스포츠</a></li>
+                        <li class="headline-menu"><a href="">올림픽</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <table class="news-table">
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <article class="article-right">
+            <div class="login-box">
+
+            </div>
+        </article>
+    </section>
+
+    <aside class="aside_rt">
+
+    </aside>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
