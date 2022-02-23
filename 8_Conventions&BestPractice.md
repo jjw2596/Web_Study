@@ -5,7 +5,7 @@
 * 규칙을 지키면 가독성이 높아져 소스 코드를 처음 접하는 사람들도 <b>빠르고 쉽게 이해할 수 있고 유지보수에도 이점</b>이 있다.
 
 대표적으로 NHN에서 제시한 코딩 컨벤션이 있다.  
-![NHN 컨벤션](https://nuli.navercorp.com/data/convention/NHN_Coding_Conventions_for_Markup_Languages.pdf)  
+[NHN 컨벤션](https://nuli.navercorp.com/data/convention/NHN_Coding_Conventions_for_Markup_Languages.pdf)  
 <br><br>
 
 # HTML에 대한 10가지 모범사례
@@ -81,4 +81,4 @@
 
 10. HTML 확인
     * html 유효성을 검사해라.
-    * ![w3c 유효성 검사기](https://validator.w3.org/)를 사용해서 결함의나 잘못된 코드를 찾아 제거할 수 있다.
+    * [w3c 유효성 검사기](https://validator.w3.org/)를 사용해서 결함의나 잘못된 코드를 찾아 제거할 수 있다.
