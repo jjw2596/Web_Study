@@ -2,13 +2,13 @@
 
 # 💻 Git 기본 사용법
 
-## git이란?
+## 📖 git이란?
 
 > git은 버전관리 시스템으로 프로그래밍을 하며 그때그때 수정사항을 기록하고 버전을 저장하기 위해 사용
 
 <br>
 
-## git 작업의 구성요소
+## 📖 git 작업의 구성요소
 
 * git 작업의 구성요소는 크게 로컬 저장소와 온라인 저장소로 나뉘어진다.
 * 온라인 저장소가 origin이 되어 여러 명의 개발자들이 자신들의 로컬 저장소로 branch를 따와서 작업을 하여 자신만의 버전을 만든다.
@@ -16,7 +16,7 @@
 
 <br>
 
-## $git init
+## 📖 $git init
 
 > 빈 git 저장소를 만들거나 기존 저장소를 다시 초기화 하는 명령어
 
@@ -32,13 +32,13 @@
 
 <br>
 
-## git clone 레포지토리 주소
+## 📖 git clone 레포지토리 주소
 
 > 다른 git의 저장소를 복사하는 명령어
 
 <br>
 
-## 로컬 저장소와 원력 저장소 연결
+## 📖 로컬 저장소와 원력 저장소 연결
 
 ```
 >>> git remote add origin 레포지토리 주소
@@ -48,7 +48,7 @@
 
 <br>
 
-## 원격 저장소에 Push/Pull
+## 📖 원격 저장소에 Push/Pull
 
 * 로컬 저장소는 git이 관리하는 세 그룹으로 나뉘어져 있다.
 * 첫 번째 그룹 : Working directory, 실제 파일들로 구성
@@ -57,43 +57,43 @@
 
 <br>
 
-## $git add
+## 📖 $git add
 
 > 버전 관리를 할 파일 등을 추가하는 과정. 
 
 <br>
 
-## $git commit -m '커밋 설명'
+## 📖 $git commit -m '커밋 설명'
 
 > 커밋을 하는 명령어로 커밋할 때 구체적인 설명을 같이 입력  
 > 이 과정까지 하면 작업 내용이 HEAD에 반영 됨
 
-## $git push origin master
+## 📖 $git push origin master
 
 > origin 서버에 master branch로 `push`하라는 명령
 
-## $git pull origin master
+## 📖 $git pull origin master
 
 > 원격 저장소에서 로컬 저장소로 불러오는 명령  
 > 기본적으로 git을 이용한 작업을 시작할 때 꼭 수행해주고 시작해야함
 
 <br>
 
-## $git log
+## 📖 $git log
 
 > 커밋 기록을 보여줌
 
 <br>
 
-## $git checkout 커밋번호 7자리
-## git checkout -# 가장 최신으로 돌리기
+## 📖 $git checkout 커밋번호 7자리
+## 📖 git checkout -# 가장 최신으로 돌리기
 
 > checkout 명령어는 버전 관리를 복구할 수 있는 시점을 바꾸는 명령어  
 > 커밋 번호가 존재하며 커밋번호 앞 7자리를 이용하여 시점을 이동
 
 <br>
 
-## 추가 용어 정리 
+## 📖 추가 용어 정리 
 
 ### fork
 
